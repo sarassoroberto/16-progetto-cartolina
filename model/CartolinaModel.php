@@ -28,15 +28,5 @@ class CartolinaModel {
          
          return $res;
          
-         
-         //return $immagini;
-       
-//            foreach ($immagini as $file){
-//                if($file->getExtension()=='jpg'){
-//                $src = $file->getPathname();
-//                echo "<img src='$src'> ";
-//            };
-         
-//       }
     }
 }

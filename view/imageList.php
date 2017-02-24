@@ -2,10 +2,11 @@
             $immagini = $this->data['immagini'];
             foreach ($immagini as $file){
                 if($file->getExtension()=='jpg'){
-                $src = $file->getPathname();
+             
                 ?>
                 <div class="col-xs-3">
-                    <img  class='img-responsive' src='<?=$src?>'> 
+                    <img  class='img-responsive' src='<?=$file->src_xs?>'> 
+                    <label><?= $file->title ?></label>
                 </div>
              <?php
             };

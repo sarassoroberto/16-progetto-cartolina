@@ -20,8 +20,8 @@ class Cartolina extends SplFileInfo{
     public function __construct($fileInfo) {
         parent::__construct($fileInfo);
         //dummy-100x100-Anemone-plain
-        $this->src_lg = "images/800x600/dummy-800x600-".$this->getBasename();
-        $this->src_xs = "images/100x100/dummy-100x100-".$this->getBasename();
+        $this->src_lg = "dummy-images/800x600/dummy-800x600-".$this->getBasename();
+        $this->src_xs = "dummy-images/100x100/dummy-100x100-".$this->getBasename();
        
         $this->title = substr($this->getBasename(".".$this->getExtension()), 0,15);
         
