@@ -6,7 +6,7 @@
                 ?>
                 <div class="col-xs-3">
                     
-                    <a href="<?= $file->src_lg ?>" data-toggle="lightbox">
+                    <a href="<?= $file->src_lg ?>" data-toggle="lightbox" data-gallery="cartoline">
                         <img  class='img-responsive' src='<?=$file->src_xs?>'> 
                     </a>
                     <label>
