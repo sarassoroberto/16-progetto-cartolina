@@ -11,7 +11,8 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="http://localhost/esercitazioni_php/11%20-%20OOP-%20php_1/index.php?controller=home">home</a></li>
+                            <li><a href="index.php?controller=home">home</a></li>
+                            <li><a href="index.php?controller=new_cartolina">carica una nuova immagine</a></li>
                             
                         </ul>
                     </div>
