@@ -14,7 +14,10 @@ class CartolinaModel {
         }else{
             echo "cartella inesistete";
         }
-        
+    }
+    
+    public function readID($cartolina_id) {
+        return new Cartolina($this->getFolder().$cartolina_id);
     }
 
     public function readAll() {
