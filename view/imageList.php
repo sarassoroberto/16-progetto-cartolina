@@ -5,8 +5,14 @@
              
                 ?>
                 <div class="col-xs-3">
-                    <img  class='img-responsive' src='<?=$file->src_xs?>'> 
-                    <label><?= $file->title ?></label>
+                    
+                    <a href="<?= $file->src_lg ?>" data-toggle="lightbox">
+                        <img  class='img-responsive' src='<?=$file->src_xs?>'> 
+                    </a>
+                    <label>
+                        <input type="radio" name="cartolina_selezionata" value="<?= $file->id ?>">
+                        <?= $file->title ?>
+                    </label>
                 </div>
              <?php
             };
