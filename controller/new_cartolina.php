@@ -10,11 +10,12 @@ $model = new CartolinaModel();
 $model->setFolder("dummy-images/upload");
 $data = $model->readAll();
 
-$page->setSection("tutte le immagini, scegli la tua cartolina");
+$page->setSection("Carica una nuova cartolina");
 $page->setBrand("Cartolina");
 $page->setTitle("home page");
 $page->setData('immagini', $data);
-//$page->setContent('view/imageList.php');
+
+$page->setContent('view/form_upload.php');
 
 $page->render();
 

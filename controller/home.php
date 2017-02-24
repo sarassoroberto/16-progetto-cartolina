@@ -14,7 +14,7 @@ $page->setSection("tutte le immagini, scegli la tua cartolina");
 $page->setBrand("Cartolina");
 $page->setTitle("home page");
 $page->setData('immagini', $data);
-//$page->setContent('view/imageList.php');
+$page->setContent('view/imageList.php');
 
 $page->render();
 
