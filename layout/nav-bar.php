@@ -12,7 +12,7 @@
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="index.php?controller=home">home</a></li>
-                            <li><a href="index.php?controller=carousel">home</a></li>
+                            <li><a href="index.php?controller=carousel">carousel</a></li>
                             <li><a href="index.php?controller=new_cartolina">carica una nuova immagine</a></li>
                             
                         </ul>

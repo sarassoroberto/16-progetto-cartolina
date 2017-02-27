@@ -14,6 +14,6 @@ $page->setSection("Carousel full screen");
 $page->setBrand("Cartolina");
 $page->setTitle("carousel full screen");
 $page->setData('immagini', $data);
-$page->setContent('view/imageList.php');
+$page->setContent('view/carousel.php');
 
 $page->render();
