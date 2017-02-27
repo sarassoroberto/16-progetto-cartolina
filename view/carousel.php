@@ -25,10 +25,6 @@
 
 <!-- Remeber to put all the content you want on top of the slider below the slider code -->
 
-<div class="title">
-  <h1>This is Awesome</h1>
-</div>
-
 <script>
 $('.carousel').carousel();
 </script>
