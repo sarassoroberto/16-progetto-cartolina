@@ -15,4 +15,5 @@
 
         <title><?php echo $this->title ?></title>
     </head>
-    <body class="<?=$this->page_id?>">
+    
+    <body id="<?=$this->page_id?>">
